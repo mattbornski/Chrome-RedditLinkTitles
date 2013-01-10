@@ -1,5 +1,5 @@
 {
-  "name": "__MSG_extensionName__",
+  "name": "Reddit Link Titles",
   "version": "0.1",
   "manifest_version": 2,
   
@@ -9,7 +9,6 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "default_locale": "en",
   
   "background": {
     "scripts": [
