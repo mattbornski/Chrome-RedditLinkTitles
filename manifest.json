@@ -3,7 +3,7 @@
   "version": "0.1",
   "manifest_version": 2,
   
-  "description": "Ever ask yourself "WTF am I looking at here"? Add the link title to new tabs opened from Reddit. It helps, but only a little.",
+  "description": "Ever ask yourself 'WTF am I looking at here'? Add the link title to new tabs opened from Reddit. It helps, but only a little.",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
