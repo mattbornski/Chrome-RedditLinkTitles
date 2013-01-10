@@ -3,7 +3,7 @@
   "version": "0.1",
   "manifest_version": 2,
   
-  "description": "When you open dozens of links at once it's easy to lose track of WTF this thing was supposed to be",
+  "description": "When you open dozens of links at once it's easy to lose track of WTF this thing was supposed to be.  This extension will fix that by simply injecting the link's title in the new tab.",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
