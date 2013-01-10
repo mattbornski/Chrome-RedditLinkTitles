@@ -1,0 +1,39 @@
+{
+  "name": "__MSG_extensionName__",
+  "version": "0.1",
+  "manifest_version": 2,
+  
+  "description": "When you open dozens of links at once it's easy to lose track of WTF this thing was supposed to be",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "default_locale": "en",
+  
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "jquery-1.4.4.min.js",
+        "content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "icon.png"
+  ],
+  
+  "permissions": [
+    "*://*/*",
+    "tabs",
+    "webRequest"
+  ]
+}
